@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    margin: 5;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+body{
+    background: #446dc6;
+    font-family: "Bree Serif", serif;
+}
+.wrapper{
+    margin-top: 4%;
+}
+.wrapper h1{
+    margin-top: 6%;
+    font-family: 'Allura', serif;
+    font-size: 55px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #f0e6e6;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.team .team_member h3{
+    color: #165385;
+    font-size: 22px;
+    margin-top: 50px;
+}
+.team .team_member p.role{
+    color: #460f0f;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.team_member:hover img{
+    scale: 1.7;
+}
